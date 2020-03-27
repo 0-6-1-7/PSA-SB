@@ -1,0 +1,112 @@
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin-left: 50px;
+}
+li {
+    list-style: none;
+    padding: 0;
+}
+li.active {
+    background-color: #7ba7bc;
+}
+.sidebar {
+    width: 15%;
+	min-height: 300px;
+    height: auto;
+    padding-bottom: 100px;
+    text-align: left;
+    float: left;
+	display:block;
+}
+.sidebar ul li.active {
+	font-weight: bold;
+	color: navy;
+}
+.sidebar ul li:hover {
+	background-color: #7ba7bc;
+}
+.content {
+	width: 75%;
+    text-align: left;
+    float: left;
+	margin-left: 50px;
+}
+.content h4 {
+    background: #ACA39A;
+    color: white;
+}
+.content ul img {
+	margin-left: -70px;
+}
+.content li {
+	display:inline;
+}
+.content li:hover {
+	background-color: #7ba7bc;
+	cursor: pointer;
+}
+.doclist {
+	display:none;
+}
+.doclist table {
+	margin-left: 50px;
+	width: 90%;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.doclist th {
+	background-color: #7ba7bc;	
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+}
+.doclist th:nth-child(1) {
+	width: 20%;
+}
+.doclist th:nth-child(2) {
+	width: 70%;
+}
+.doclist th:nth-child(3) {
+	width: 10%;
+}
+.doclist tr:nth-child(even) {
+	background-color: #f2f2f2;	
+}
+.doclist tr:hover {
+	background-color: #7ba7bc;
+	cursor: pointer;
+}
+.doclist td {
+	font-size: 12px;
+}
+.nodocs {
+	background-color: #BBBBBB;	
+}
+table.carinfo {
+	table-layout: fixed;
+	margin-left: 20px;
+	width: 60%;
+	border-collapse: collapse;
+	min-width: 700px;
+}
+table.carinfo th {
+	background-color: #7ba7bc;	
+	text-align: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+table.carinfo th:nth-child(1) {
+	width: 40%;
+}
+table.carinfo th:nth-child(2) {
+	width: 60%;
+}
+table.carinfo td {
+	font-size: 12px;
+}
+table.carinfo tr:nth-child(even) {
+	background-color: #f2f2f2;	
+}
